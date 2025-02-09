@@ -1,0 +1,117 @@
+* {
+    font-family: "Trebuchet MS";
+}
+
+h1 {
+    text-transform: uppercase;
+    color: rgb(46, 37, 36);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    background-color: #333;
+}
+
+
+.card {
+    border: 1px solid #DDEEEE;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    /* 3 cards per row */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.card img {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+a {
+    background-color: rgb(26, 20, 19);
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.nav-item {
+    padding: 14px;
+}
+
+.navbar-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.img-logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #1c241c;
+}
+
+.button-container {
+    margin-top: 25px;
+}
+
+.tambah {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
